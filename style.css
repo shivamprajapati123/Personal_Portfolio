@@ -271,14 +271,19 @@ a {
 h1.text-body-emphasis {
   width: max-content;
 }
+@media (max-width: 400px) {
+  .profile{
+    margin-left: 2%;
+  }
+}
 @media (max-width: 433px) {
   .shivam {
     width: max-content;
-    margin-left: -0.8vh;
+    /* margin-left: -0.2vh; */
   }
 }
 
-@media (max-width: 585.1px) {
+@media (max-width: 620.1px) {
   .header {
     display: none;
   }
@@ -321,7 +326,7 @@ h1.text-body-emphasis {
   /* padding-left: 20px; */
 }
 
-@media (min-width: 585px) {
+@media (min-width: 620.1px) {
   .special {
     display: none;
   }
@@ -615,6 +620,7 @@ input:valid + .labelLine {
   }
 .shivam{
   width: max-content;
+  padding-left: 7%;
 }
 }
 
@@ -626,7 +632,27 @@ input:valid + .labelLine {
     text-align: center;
   }
   h1.hello{
-    margin-left: -13%;
+    margin-left: -12%;
   }
 }
+/* dad */
 /* footer */
+.shivam{
+  display: flex;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  padding-left: 25px;
+  align-items: center;
+  justify-content: center;
+}
+.profile{
+  padding-left: 55px;
+}
+.newHead{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 45px;
+}
